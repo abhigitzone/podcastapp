@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:background="@color/dark_grey" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dev1Img"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:layout_below="@id/view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_20"
+            android:src="@drawable/default_img" />
+
+        <TextView
+            android:id="@+id/dev1Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dev1Img"
+            android:layout_marginTop="@dimen/dp_4"
+            android:fontFamily="@font/google_sans_bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/sp_22"
+            android:text="@string/abhishek_raj"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dev1Bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dev1Name"
+            android:layout_marginTop="@dimen/dp_4"
+            android:fontFamily="@font/google_sans_bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/sp_16"
+            android:text="@string/dev_bio_1"
+            android:textColor="@color/dark_grey"
+            android:layout_margin="@dimen/dp_8"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/changeWall"
+        android:title="@string/change_wallpaper">
+
+        <menu>
+
+            <item
+                android:id="@+id/colorBlack"
+                android:title="Black" />
+
+            <item
+                android:id="@+id/darkGrey"
+                android:title="Dark Grey" />
+
+            <item
+                android:id="@+id/colorBlue"
+                android:title="Blue" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
